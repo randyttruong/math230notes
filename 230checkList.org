@@ -1,0 +1,66 @@
+#+title: MATH 230-1 Topic Check List
+#+description: Checklist of things I need to study for MATH_230-1 for Spring Break
+
+* All Notes
+[[file:adityaNotes/][All of Aditya's Notes]]
+
+# Midterm 1
+* 12.1: Three-Dimensional Coordinate Systems
+[[file:adityaNotes/Math 228-1 lecture_1.pdf][Three-Dimensional Coordinate Systems Notes (Aditya)]]
+** TODO Self-Study
+
+* 12.2: Vectors
+[[file:adityaNotes/Math 228-1 lecture_2.pdf][Vectors Notes (Aditya)]]
+
+* 12.3: The Dot Product
+[[file:adityaNotes/Math 228-1 lecture_3.pdf][Dot Product Notes]]
+
+* 12.4 The Cross Product
+[[file:adityaNotes/Math 228-1 lecture_4-1.pdf][Cross Product Notes]]
+* Lines in Space
+
+* 12.5 Planes in Space
+[[file:adityaNotes/Math 228-1 lecture_6-1.pdf][Planes in Space Notes]]
+* Conic Sections
+
+* Cylinders and Quadric Surfaces
+* Polar Coordinates
+* Curves in Space and Their Tangents
+[[file:adityaNotes/Math 228-1 lecture_7.pdf][Curves in Space Notes]]
+
+* 13.1 Curves in Space and Their Tangents (Part 2)
+[[file:adityaNotes/Math 228-1 lecture_8-1.pdf][Curves in Space and their Tangents Notes]]
+
+* Integrals of Vector Functions; Projectile Motion
+
+* 13.3: Arc Length
+[[file:adityaNotes/Math 228-1 lecture_10.pdf][Arc Length Notes]]
+
+# Midterm 2
+* 14.1: Functions of Several Variables
+[[file:adityaNotes/Math 228-1 lecture_13.pdf][Aditya Notes]]
+* Functions of Several Variables (Part 2)
+
+* Limits and Continuity in Higher Dimensions
+* Limits and Continuity in Higher Dimensions (Part 2)
+* 14.3: Partial Derivatives
+[[file:adityaNotes/Math 228-1 lecture_14.pdf][Aditya Notes]]
+* 14.4: The Chain Rule
+[[file:adityaNotes/Math 228-1 lecture_15-1.pdf][Aditya Notes]]
+* 14.5: Gradient Vectors and Tangent Planes
+[[file:adityaNotes/Math 228-1 lecture_16.pdf][Aditya Notes]]
+* 14.5: Directional Derivatives
+* 14.6: Tangent Planes and Linearization
+[[file:adityaNotes/Math 228-1 lecture_18.pdf][Aditya Notes]]
+# Final Exam
+* 10.9:Taylor's Formula for Two Variables
+[[file:adityaNotes/Math 228-1 lecture_19.pdf][Aditya Notes (Taylor Polynomials)]]
+[[file:adityaNotes/Math 228-1 lecture_20.pdf][Aditya Notes (Taylor's Formula)]]
+* 14.7 Extreme Values and Saddle Points
+* 14.7 Optimization
+[[file:adityaNotes/Math 228-1 lecture_24-1.pdf][Aditya Notes]]
+[[file:adityaNotes/Math 228-1 lecture_25.pdf][Aditya Notes (Optimization Part 2)]]
+* 14.8: Lagrange Multipliers
+[[file:adityaNotes/Math 228-1 lecture_26.pdf][Aditya Notes (Lagrange Multipliers)]]
+* 14.8: Lagrange Multipliers (Part 2)
+[[file:adityaNotes/Math 228-1 lecture_27.pdf][Aditya Notes (Lagrange Multipliers (Part 2))]]

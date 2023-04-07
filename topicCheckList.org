@@ -1,0 +1,33 @@
+#+title: MATH 230-1 Topic Check List
+#+description: Checklist of things I need to study for MATH_230-1 for Spring Break
+
+  # Midterm 1
+* Three-Dimensional Coordinate Systems
+* Vectors
+* The Dot Product
+* The Cross Product
+* Lines in Space
+* Planes in Space
+* Conic Sections
+* Cylinders and Quadric Surfaces
+* Polar Coordinates
+* Curves in Space and Their Tangents
+* Curves in Space and Their Tangents (Part 2)
+* Integrals of Vector Functions; Projectile Motion
+* Arc Length
+# Midterm 2
+* Functions of Several Variables
+* Functions of Several Variables (Part 2)
+* Limits and Continuity in Higher Dimensions
+* Limits and Continuity in Higher Dimensions (Part 2)
+* Partial Derivatives
+* The Chain Rule
+* Gradient Vectors and Tangent Planes
+* Directional Derivatives
+* Tangent Planes and Linearization
+# Final Exam
+* Taylor's Formula for Two Variables
+* Extreme Values and Saddle Points
+* Optimization
+* Lagrange Multipliers
+* Lagrange Multipliers (Part 2)

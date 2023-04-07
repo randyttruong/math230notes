@@ -1,0 +1,471 @@
+\documentclass{report}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\R}{\mathbb{R}}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Math 230-1 Notes}
+\author{Randy Truong}
+\begin{document}
+\maketitle
+\begin{sloppypar}
+\tableofcontents
+\chapter{12.1: Three-Dimensional Coordinate Systems}
+\section{Reminders}
+\begin{itemize}
+  \item There are \textbf{two} MyLab Math
+        assignments that are due on
+        \textbf{Sunday, April 2nd, 2023}
+        \begin{itemize}
+          \item Three-Dimensional
+                Coordinate Systems
+          \item Vectors
+
+        \end{itemize}
+
+
+  \item The \textbf{first
+        written homework} is
+        going to be due on \textbf{Friday,
+        April 12, 2023}.
+
+  \item Remember to re-write notes in LaTeX
+        for every class!
+\end{itemize}
+
+\section{Objectives}
+\begin{itemize}
+  \item Be able to understand and visualize
+        the three-dimensional coordinate
+        plane.
+  \item Be able to draw basic
+        objects in the three-dimensional
+        coordinate plane
+  \item Become fluent in the various
+        attributes of the three-dimensional
+        coordinate plane
+  \item Be able to define a graph
+        in set-builder notation
+\end{itemize}
+
+\section{Motivation}
+In former calculus classes (and former math
+classes in general), we have learned how to
+graph different objects in two-dimensional
+space. We have also learned about a particular
+way of graphing objects (or interpreting
+coordinates), and that has been through
+coordinate grids.
+
+\par However, in multivariable calculus, we
+want to move out of these two-dimesional
+coordinate systems. Instead we want to
+be able to understand graphs in the
+third-dimensional coordinate system in order
+to tackle more complex problems.
+
+\section{What we already know}
+\subsection{Cartesian Coordinate Systems}
+The Cartesian Coordinate system, which
+is also known as the \textbf{rectangular
+  coordinate system} is a
+coordinate system in which we locate our
+points based on their position in relation
+to the origin of the graph, based on the
+x and y axes.
+\begin{itemize}
+
+  \item For example, given the following point:
+
+        \[ (4,5)\]
+
+        what exactly comes to mind?
+        \begin{itemize}
+          \item We shift the point 4 positive
+                units along the x-axis from
+                the origin.
+          \item We shfit the point 5
+                positive units along the y-axis
+                from the origin.
+
+        \end{itemize}
+\end{itemize}
+
+\subsection{Two-dimensional coordinate systems $ \R^{2} $}
+Recall that real numbers are numbers that
+can be used to express one-dimensional
+quantities.
+\begin{itemize}
+  \item This basically includes
+        every single number that can be
+        plotted on the number line.
+\end{itemize}
+We denote real numbers in mathematics with
+the following symbol:
+\begin{center}
+  $ \R $
+\end{center}
+$ \R $ represents all \textbf{real,  one-dimensional
+  quantities.} We can, of course,
+think of this as all of the numbers and points
+that exist on the number line, since
+the number line only contains one-dimension,
+the scalar $x$.
+By comparision, whenever we see
+the following notation:
+\[ \R^{2}\]
+This means that are observing all \textbf{real, two-dimensional quantities}.
+When we say, ``real, two-dimensional
+quantities,'' we are referring to all of
+the points that exist in the xy-plane, or
+the two-dimensional Cartesian coordinate
+system.
+\par By this logic, then, we know that if
+$ \R^{2} $ represents a pair of real numbers,
+we know that
+\[ \R^{3} \]
+represents a triple of all real numbers, in
+the form of $ (x, y, z)$.
+
+\subsection{Terminology in $\R^{2}$}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\begin{definition}
+  Axes
+\end{definition}
+\textbf{Axes} represent the way that a point can
+``move'' in a coordinate plane.
+\begin{itemize}
+  \item In the one-dimensional coordinate
+        system, we can only move along the
+        x-axis: $ x $.
+  \item In the two-dimensional
+        coordinate system, we can move
+        along both the x-axis and the y-axis:
+        $ (x, y) $.
+\end{itemize}
+
+\begin{definition}
+  Quadrants
+\end{definition}
+\textbf{Quadrants} define the different
+possible areas of the coordinate system a
+point can exist on, which are based on
+the signs of both the x and y values.
+\begin{itemize}
+  \item For example, there are
+        four quadrants in the xy-plane, including
+        \begin{itemize}
+          \item Quadrant I: $ (+, +)$
+          \item Quadrant II: $ (-, +)$
+          \item Quadrant III: $ (-, -)$
+          \item Quadrant IV: $ (+, -)$
+
+        \end{itemize}
+
+\end{itemize}
+
+\section{The Three-Dimensional Coordinate
+  Plane $\R^{3}$}
+
+By what we know about the one-dimensional
+coordinate system $ \R$ as $x$ and the
+two-dimensional coordinate system $\R^{2}$
+as $ (x, y)$, we must think of the
+three-dimensional coordinate system $\R^{3}$
+as $ (x, y, z)$.
+\subsection{Terminology in $ \R^{3} $}
+
+\begin{definition}
+  Axes
+\end{definition}
+
+This is literally a copy of what we have
+in $ \R $ and $ \R^{2} $, insofar that
+we have the number of dimensions corresponding
+to the exponent of $ \R $. Obviously, in
+this case, since we are working in $ \R^{3} $,
+we now have three dimensions to work with,
+the x-axis, the y-axis, and the z-axis.
+
+\begin{definition}
+  Octants
+\end{definition}
+Similarly to what we had in the two-dimensional
+coordinate plane, we can distinguish what
+general area a point in three dimensions is
+going to occupy.
+\begin{itemize}
+  \item There is no good way to define
+        which octant is which, but we can
+        visualize it as the xy-plane quadrants,
+        but just duplicated for all positive
+        values of z and all negative values of
+        z.
+\end{itemize}
+\begin{definition}
+  Planes
+\end{definition}
+\textbf{Planes} are objects that occupy
+all real-numbers in two dimensions.
+\par There are three planes in $ \R^{3} $
+\begin{itemize}
+  \item xy-plane
+        \begin{itemize}
+          \item We can think of this as
+                all points in which $ z = 0 $.
+          \item All  points
+                that satisfy $ (x, y, 0) $,
+                where $ x $ and $ y $ are
+                real numbers.
+        \end{itemize}
+
+  \item yz-plane
+        \begin{itemize}
+          \item All points in which $ x = 0 $
+          \item Any coordinates that satisfy
+                $ (0, y , z )$ where
+                $ y $ and $ z $ are
+                real numbers.
+
+        \end{itemize}
+  \item xz-plane
+        \begin{itemize}
+          \item All points in which $ y = 0 $
+          \item Any coordinates that
+                satisfy $ (x, 0, z)$, where
+                $ x $ and $ z $ are real
+                numbers.
+
+        \end{itemize}
+
+\end{itemize}
+
+\section{Set-Builder Notation}
+\subsection{What are sets?}
+\textbf{Sets} are just collections of different
+objects in mathematics.
+\begin{itemize}
+  \item We can think of sets as
+        containing integers, variables,
+        etc\dots
+\end{itemize}
+They are generally notated using \textbf{curly
+  braces}.
+\subsection{Examples of Sets}
+\[ \{ 1, 2, 3, \dots \}\]
+\[ \{ a, b, c, \dots \}\]
+
+But, how do we define what kinds of objects we are
+putting into our set?
+\subsection{Set Builder Notation}
+\textbf{Set Builder Notation} is a type of
+mathematical notation that allows us to describe what
+kinds of objects are in our sets and the properties of
+such objects.
+
+\par The generally follow the following format
+
+\[ \{ \textrm{
+    \textit{variable(s)}}: \textrm{\textit{condition(s) that define the variable(s)} }\}\]
+\subsection{Common Symbols in Set Builder Notation}
+\newtheorem*{definition*}{Meaning}
+\begin{center}
+  \fbox {
+    \parbox{\textwidth}{
+
+\newtheorem{plain}{Symbol}
+\begin{plain}
+
+  \[ \R, ~ \R^{2}, ~ \R^{3}, \dots\, \R^{N}\]
+\end{plain}
+\begin{definition*}
+  the set of real numbers in N dimensions
+\end{definition*}
+
+}}
+\end{center}
+
+\begin{center}
+  \fbox{
+    \parbox{\textwidth}{
+      \begin{plain}
+              \[ \in \]
+
+      \end{plain}
+      \begin{definition*}
+                ``is an element of '' or ``in'' or ``belongs to ''
+      \end{definition*}
+
+    }
+  }
+\end{center}
+
+\begin{center}
+  \fbox{
+    \parbox{\textwidth}{
+
+      \begin{plain}
+        \[ : ~\&~  | \]
+
+      \end{plain}
+      \begin{definition*}
+          ``such that''
+      \end{definition*}
+    }
+  }
+
+\end{center}
+
+\subsection{Non-mathematical examples of Set Builder Notation}
+
+\newtheorem*{remark*}{Example}
+\begin{remark*}
+  \[ \{ x : \textrm{$ x $ is a left-handed guitar player} \}\]
+\end{remark*}
+\begin{definition*}
+  The set of $ x $ such that $ x $ is a left-handed guitar
+  player.
+\end{definition*}
+\[ \]
+\begin{remark*}
+  \[ \{ y ~|~ \textrm{$ y $'s name is Randy Truong} \}\]
+\end{remark*}
+
+\begin{definition*}
+  The set of $ y $ such that $ y $'s name is Randy Truong.
+\end{definition*}
+
+\subsection{Mathematical Examples of Set Builder Notation}
+\begin{remark*}
+  \[ \{ (x, y, z) \in \R^{3} : y=0, z=0 \}\]
+\end{remark*}
+\begin{definition*}
+  The set of all ordered triples $ (x, y, z)$ such that
+  $ y $ is equal to $ 0 $ and $ z $ is equal to $ 0 $.
+\end{definition*}
+
+\begin{remark*}
+  \[ \{(t, 0, 0): t \in \R \} \]
+\end{remark*}
+\begin{definition*}
+  The set of all ordered triples $ (t, 0, 0 ) $ such that
+  $ t $ is an element of real numbers (or is a real number).
+\end{definition*}
+
+\section{Drawing basic objects (points, lines, planes) in $
+  R^{3}$}
+Whenever we want to draw things in three dimensions, there
+are a few things that we need to consider first.
+
+\subsection{Drawing the Coordinate System and Right-Hand Rule}
+Whenever we draw the three-dimensional coordinate system,
+we must remember that there is a particular way in
+which we draw the system. The best way to visualize
+this is to use the \textbf{right-hand rule}
+\begin{itemize}
+  \item Our arm represents the y-axis, while our
+        fingers represent the x-axis.
+  \item Our thumb is always going to be pointing towards
+        the z-axis.
+  \item Make sure that whenever we are drawing
+        a coordinate system that we are just rotating
+        the system, rather than just ``mirroring'' it.
+\end{itemize}
+Otherwise, whenever we actually plot our points
+and actually draw things in three dimensions, we need
+to follow this algorithm:
+\begin{enumerate}
+  \item Think of what happens to the object at the origin or
+        think of the shape in two dimensions.
+  \item Shift the object accordingly based on the
+        third dimension.
+\end{enumerate}
+
+
+\section{Distance Between Two Points in Three-Dimensional
+  Spacde}
+\subsection{Distance in $ \R^{2} $}
+\newtheorem{lem}{Formula}
+\begin{center}
+  \fbox{
+    \parbox{\textwidth} {
+      \begin{lem}
+        Distance in $ \R^{2} $
+        \[ \textrm{let $ d $ be distance}\]
+        \[ d = \sqrt{(x_{2}-x_{1})^{2}+(y_{2}-y_{1})^{2}} \]
+    \end{lem}
+    }
+  }
+\end{center}
+
+\subsection{Distance in $ \R^{3} $}
+\begin{center}
+  \fbox{
+    \parbox{\textwidth}{
+      \begin{lem}
+        Distance in $ \R^{3} $
+        \[ \textrm{let $ d $ be distance}\]
+        \[ d = \sqrt{(x_{2}-x_{1})^{2}+(y_{2}+y_{1})^{2}
+        + (z_{2}-z_{1})^{2}}\]
+      \end{lem}
+    }
+  }
+\end{center}
+
+
+\chapter{12.2: Vectors}
+\section{Objectives}
+\section{Motivation}
+\chapter{12.3: The Dot Product}
+\section{Objectives}
+\section{Motivation}
+\chapter{12.4: The Cross Product}
+\section{Objectives}
+\section{Motivation}
+\chapter{12.5: Planes in Space}
+\section{Objectives}
+\section{Motivation}
+\chapter{13.1: Curves in Space and their Tangents}
+\section{Objectives}
+\section{Motivation}
+\chapter{13.3: Arc Length}
+\section{Objectives}
+\section{Motivation}
+\chapter{14.1: Functions of Several Variables}
+\section{Objectives}
+\section{Motivation}
+\chapter{14.3: Partial Derivatives}
+\section{Objectives}
+\section{Motivation}
+\chapter{14.4: The Chain Rule}
+\section{Objectives}
+\section{Motivation}
+\chapter{14.5: Gradient Vectors and Tangent Planes}
+\section{Objectives}
+\section{Motivation}
+\chapter{14.5 (cont'd): Directional Derivatives}
+\section{Objectives}
+\section{Motivation}
+\chapter{14.6: Tangent Planes and Linearization}
+\section{Objectives}
+\section{Motivation}
+\chapter{10.9: Taylor's Formula}
+\section{Objectives}
+\section{Motivation}
+\chapter{10.9: Taylor's Polynomials}
+\section{Objectives}
+\section{Motivation}
+\chapter{14.7: Optimization}
+\section{Objectives}
+\section{Motivation}
+\chapter{14.8: Lagrange Multipliers}
+\section{Objectives}
+\section{Motivation}
+\chapter{14.8: Lagrange Multipliers (Part 2)}
+\section{Objectives}
+\section{Motivation}
+\end{sloppypar}
+\end{document}
