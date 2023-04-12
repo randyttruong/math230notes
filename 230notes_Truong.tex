@@ -417,54 +417,411 @@ to follow this algorithm:
 
 
 \chapter{12.2: Vectors}
+\section{Reminders}
+TODO
 \section{Objectives}
+\begin{enumerate}
+  \item Explain the difference between a vector
+        and a point
+  \item Express the vector in \textbf{component form}
+        and compute its magnitude
+  \item Perform elementary vector algebra using
+        vector addition and scalar multiplication
+  \item Produce a unit vector with a specificed
+        direction
+  \item Compute the midpoint of a line segment
+
+
+\end{enumerate}
 \section{Motivation}
+TODO
+\section{Scalar Who?}
+TODO
+\section{Vector Who?}
+TODO
+\subsection{Vector Notation}
+TODO
+\subsection{Vector Magnitude}
+TODO
+\subsection{Equivalency between Vectors}
+TODO
+\section{Position Vectors}
+TODO
+\section{Component Form of Vectors}
+TODO
+\section{Basic Vector Operations}
+TODO
+\subsection{Vector Addition and Subtraction}
+TODO
+\subsection{Scalar Multiplication}
+TODO
+
+
+
 \chapter{12.3: The Dot Product}
+\section{Reminders}
+TODO
 \section{Objectives}
+\begin{enumerate}
+  \item Compute the dot product of two vectors
+  \item COmpute the angle between two
+        vectors in terms of the dot product
+  \item Algebraically determine when two vectors
+        are \textbf{orthogonal} and be able to
+        geometrically define what \textbf{orthongonality}
+        refers to
+  \item Perform elementary vector algebra using
+        properties of vector addition, scalar
+        multiplication, and the dot product
+  \item Algebraically compute (and geometrically
+        explain/describe) the projection of a given
+        vector onto another, non-zero vector
+  \item Solve elemntary problems involving effective
+        force and work using vector projections
+\end{enumerate}
+
 \section{Motivation}
+TODO
 \chapter{12.4: The Cross Product}
+\section{Reminders}
+TODO
+\section{Objectives}
+\begin{enumerate}
+  \item Compute the cross product of two given
+        vectors using \textbf{determinants}
+  \item Geometrically interpret the
+        magnitude and direction of the cross product
+        of two given vectors
+  \item Perform elementary vector operations
+        \begin{itemize}
+          \item Vector Addition
+          \item Scalar Multiplication
+          \item Dot Product
+                \item Cross Product
+        \end{itemize}
+
+\end{enumerate}
+
+\section{Recall}
+Recall that in the last lecture, we discussed the
+\textbf{dot product}, which had both an \textbf{algebraic}
+definition as well as a \textbf{geometric} definition
+\begin{itemize}
+  \item Whenever we were finding the algebraic
+        dot product, we were just multiplying the components
+        and finding their sum
+        \[ \vec{v} \cdot \vec{u} ~ = ~
+        v_{1}u_{1} + v_{2}u_{2} + v_{3}+u_{3} \]
+
+        We learned that this scalar actually represented
+        a lot more than it let on. In fact, the
+        \textbf{scalar that results from a dot product}
+        actually represents the product of both vectors'
+        magnitudes as well as the cosine of the angle
+        between them:
+        \[ \vec{v} \cdot \vec{u} ~ = ~
+        || \vec{v} || \cdot || \vec{u} || \cdot
+        \cos{\theta} \]
+
+        where, of course, $ \theta $ represents the angle
+        between the vectors $ v $ and $ u $.
+        \\
+        \par We also see the angle between two vectors
+        $ \theta $ represented by the following formula
+
+        \[ \cos{\theta} =
+        \frac{\vec{v} \cdot \vec{u}}{||\vec{v}|| ||\vec{u}||}
+        \]
+
+  \item We also learned about \textbf{projection},
+        which is the idea of taking a vector $ v $ and
+        then imposing it onto another vector $ u $.
+        Imagine that we were just ``flattening'' a vector
+        onto another, preserving its length/magnitude
+        while maintaining another vector's direction.
+        \[ proj_{v}u =
+        \frac{\vec{v} \cdot \vec{u}}{\vec{v} \cdot \vec{v}} \vec{v} \]
+        which can also be represented as
+        \[ \Rightarrow \Biggr(
+        \frac{\vec{u} \cdot \vec{v}}{||\vec{v}||}
+        \Biggr)
+        \cdot
+        \Biggr(
+        \frac{1}{||\vec{v}||}
+        \Biggr) \vec{v}
+        \]
+        where the first term $ \frac{\vec{v} \cdot \vec{u}}{||\vec{v}||}$ represents the
+        \textbf{scalar component of v} and the second
+        term $ \Biggr( \frac{1}{||\vec{v}||}\Biggr) \vec{v} $
+        represents the \textbf{unit vector of $ \vec{v} $}.
+
+
+\end{itemize}
+
+\section{Motivation}
+In the former lectures, we have learned about
+\textbf{vectors} as well as numerous operations
+to perform ont hem
+
+\begin{itemize}
+  \item Vector Addition/Subtraction $ \rightarrow $ vectors
+  \item Scalar Multiplication $ \rightarrow $ vector
+  \item Dot Product $ \rightarrow $ scalar
+\end{itemize}
+
+What if there was such an operation that we were able
+to \textbf{multiply} two vectors together?
+
+\section{Cross Product}
+\begin{center}
+  \fbox{
+    \parbox{\textwidth}{
+      \begin{definition}
+        Cross Product
+      \end{definition}
+      The cross product of two vecturs $ \vec{v} $
+      and $ \vec{u} $, $ (\vec{v} \times \vec{u}) $, is
+      the geometrically defined by the following vector:
+      \[ \vec{v} \times \vec{u} := ||\vec{v}||||\vec{u}||
+        \cdot \sin{\theta} \cdot \vec{n} \ \]
+      where vector $ \vec{n} $ is the \textbf{normal unit
+        vector} perpendicular to the plane spanned by
+      $ \vec{v} $ and $ \vec{u} $, which is chosen
+      accordingly by the right hand rule.
+
+      \textbf{Layman Definition.}
+      \\
+      The cross product is the reuslting vector
+      $ \vec{n} $, which is a vector that is orthogonal
+      toe the plane of which $ \vec{v} $ and $ \vec{u} $
+      occupy, and of which whose magnitude is determined
+      by the product of the magnitude of $ \vec{v} $ and
+      $ \vec{u} $, and the value of the angle betwen
+      the two vectors that span the plane.
+    }
+  }
+\end{center}
+\textbf{TODO: Insert Picture from Tablet}
+\subsection{Observations of the Cross Product}
+TODO
+
+\chapter{12.5: Lines and Planes in Space (04/07/23 - 04/10/23)}
+\section{TODOs }
+\begin{itemize}
+  \item Finish writing lesson for lines in space
+  \item Finish writing lesson for planes in space
+  \item Finish OHW
+\end{itemize}
+
+\section{Lines in Space (04/07/23)}
+TODO
+\section{Reminders}
+\begin{itemize}
+\end{itemize}
+
+\section{Objectives}
+In this section, we want to be able to do the
+following:
+\begin{itemize}
+  \item Be able to write equations for lines
+        and line segments in $ \R^{3} $ space
+        using scalar and vector products
+\end{itemize}
+
+\section{Motivation}
+Recall in the last lessons we have been
+learninge exclusively about vectors as well
+as how we are able to manipulate them in order
+to get different objects in space.
+\begin{itemize}
+  \item For example, we have learned that the
+        \textbf{Dot Product} is a function that takes
+        in two vectors $ \vec{v}$ and $ \vec{u}$
+        and returns some scalar.
+        \[ \vec{v} \cdot \vec{u}  \]
+        Much like anything in multivariable calculus,
+        we actually have to consider that a lot of the
+        concepts we learn are \textbf{multi-dimensional}.
+        In this case, we must understand that the
+        \textbf{dot product} has both a \textbf{algebraic}
+        and \textbf{geometric} definition.
+        \par Algebraically, we can think of the dot product
+        as the following equation:
+        \[ \textrm{let $ \vec{v} = \langle v_{1}, v_{2}, v_{3} \rangle $}\]
+        \[ \textrm{let $ \vec{u} = \langle u_{1}, u_{2}, u_{3} \rangle$}\]
+        \[ \Rightarrow
+        \vec{v} \cdot \vec{u} ~ = ~ v_{1}u_{1} + v_{2}u_{2}
+        + v_{3}u_{3} \]
+        \par Geometrically, we can think of the
+        \textbf{dot product} as the \textbf{angle between
+        two vectors, but scaled based on the magnitude
+        of the vectors.}
+        \[ \textrm{let $ \vec{v} = \langle v_{1}, v_{2}, v_{3} \rangle $}\]
+        \[ \textrm{let $ \vec{u} = \langle u_{1}, u_{2}, u_{3} \rangle$}\]
+        \[ \Rightarrow \vec{v} \cdot \vec{u} ~ = ~
+        ||\vec{v}|| \cdot ||\vec{u}|| \cdot \cos{\theta}\]
+        \par Of course, there are a few implications and
+        use cases of the dot product both algebraically
+        and geometrically
+        \begin{itemize}
+          \item If $ \vec{v} \cdot \vec{u} = 0 $,
+                then we know that the vectors $ v $ and
+                $ u $ are \textbf{orthogonal or
+                perpendicular}, which makes sense,
+                since if we were to find some value
+                $ \cos{\theta} = 0$, then we would have
+                $ \theta = \frac{\pi}{2} $, which is of
+                course, a right angle.
+                \item
+        \end{itemize}
+
+        \textbf{TODO: Include Graphics that Visualizes
+        this relationship}
+
+\end{itemize}
+
+\subsection{2-D Lines versus 3-D Lines}
+Whenever we were defining lines in $ \R^{2}$, we
+were always thinking of these lines as an
+a set of points with two defining characteristics:
+\begin{itemize}
+  \item Some point $ P_{0} $ that the line
+        intersected
+  \item Some slope or direction $ m $ that the
+        line went in
+\end{itemize}
+
+With the intuition that lines in two-dimensional space
+were defined by the points they intersectd as well
+as their \textbf{slope}, which we can think of as
+the \textbf{change in x and the change in y over time},
+we can apply the same general principals to vectors in
+three-dimensional space.
+\subsection{3-D Lines}
+Three dimensional lines, by comparison, are also
+defined by some point that the line goes through
+as well as a direction in which the line continues
+infinitely. Instead of having a slope, however,
+we like to think of the ``slope'' of a three-dimensional
+line as a ``parallel'' vector, that doesn't necessarily
+represent the actual line, but the \textbf{behavior}
+of our current line.
+\par A three-dimensional line is defined by the following
+terms:
+\begin{itemize}
+  \item An \underline{\textbf{initial point}} $ P_{0} $ or
+        just $ P $.
+  \item A \underline{\textbf{vector}} that defines
+        the line's \textbf{direction} and \textbf{behavior},
+        $ \overrightarrow{P_{0}P} $ or $ \overrightarrow{PQ}$, where $ P_{0} $ and
+        represents the initial point and $ P $ and $ Q $
+        represent \textbf{any point on the line}.
+
+\end{itemize}
+\subsection{3-D Line Summary}
+Essentially, much like hte \textbf{two-dimensional line},
+a \textbf{three-dimensional line} is defined by some
+point $ P $ that the line goes through, as well as
+a \textbf{directional vector} that starts from that
+initial point $ P $ and extends to any point $ Q $ on
+the line $ \overrightarrow{PQ} $.
+
+
+
+\section{Planes in Space (04/10/23)}
+\section{Reminders}
+TODo
+\section{Objectives}
+\begin{enumerate}
+  \item Determine vector and component equations
+  \item Produce non-zero vectors normal to a given plane
+  \item Compute the distance from a point to a plane
+        in space
+  \item Determine whether two given planes coincide, intersect in a line, or are parallel
+
+\end{enumerate}
+
+\section{Motivation}
+TODO
+\chapter{11.6: Conic Sections (04/12/23)}
+\section{Reminders}
 \section{Objectives}
 \section{Motivation}
-\chapter{12.5: Planes in Space}
+\chapter{12.6: Cylinders and Quadric Surfaces (04/14/23)}
+\section{Reminders}
 \section{Objectives}
+\begin{enumerate}
+  \item Sketch the graph of various cylinders
+  \item Graph the \textbf{six} quadric surfaces by hand
+  \item Understand the usefulness of the coordinate plane
+        traces as well as how to find them
+
+\end{enumerate}
+
 \section{Motivation}
-\chapter{13.1: Curves in Space and their Tangents}
+\chapter{11.3: Polar Coordinates (04/17/23)}
+\section{Reminders}
+\section{Objectives}
+\begin{enumerate}
+  \item Be able to differentiate between poloar
+        coordinates and Cartesian coordinates
+  \item Be able to relate polar coordinates to
+        Cartesian coordinates
+  \item Graph polar coordinate functions
+
+\end{enumerate}
+
+\section{Motivation}
+\chapter{13.1: Curves in Space and their Tangents (04/19/23)}
+\section{Reminders}
 \section{Objectives}
 \section{Motivation}
 \chapter{13.3: Arc Length}
+\section{Reminders}
 \section{Objectives}
 \section{Motivation}
 \chapter{14.1: Functions of Several Variables}
+\section{Reminders}
 \section{Objectives}
 \section{Motivation}
 \chapter{14.3: Partial Derivatives}
+\section{Reminders}
 \section{Objectives}
 \section{Motivation}
 \chapter{14.4: The Chain Rule}
+\section{Reminders}
 \section{Objectives}
 \section{Motivation}
 \chapter{14.5: Gradient Vectors and Tangent Planes}
+\section{Reminders}
 \section{Objectives}
 \section{Motivation}
 \chapter{14.5 (cont'd): Directional Derivatives}
+\section{Reminders}
 \section{Objectives}
 \section{Motivation}
 \chapter{14.6: Tangent Planes and Linearization}
+\section{Reminders}
 \section{Objectives}
 \section{Motivation}
 \chapter{10.9: Taylor's Formula}
+\section{Reminders}
 \section{Objectives}
 \section{Motivation}
 \chapter{10.9: Taylor's Polynomials}
+\section{Reminders}
 \section{Objectives}
 \section{Motivation}
 \chapter{14.7: Optimization}
+\section{Reminders}
 \section{Objectives}
 \section{Motivation}
 \chapter{14.8: Lagrange Multipliers}
+\section{Reminders}
 \section{Objectives}
 \section{Motivation}
 \chapter{14.8: Lagrange Multipliers (Part 2)}
+\section{Reminders}
 \section{Objectives}
 \section{Motivation}
 \end{sloppypar}
